@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+        $('#dtd').css('background','red');
+        $('#dtd').click(function(){
+            $('#dtd').css('background', 'green')
+        })
+        $('h2').css('color', 'green')
+        $('h2').css('fontSize', '40px');
+
+        $(document).ready(function(){
+        $("#btn1").click(function(){
+            alert("Text: " + $("#test").text());
+        });
+        $("#btn2").click(function(){
+            alert("HTML: " + $("#test").html());
+        });
+        
+    });
+    </script>
+</head>
+<body>
+    <h2>Taylor Swift</h2>
+    <div id="dtd"><img src="img/test1.jpg"</div>
+    <button id="btn1">Show Text</button>
+    <button id="btn2">Show HTML</button>
+</body>
+</html>
