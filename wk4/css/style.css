@@ -1,0 +1,175 @@
+html{
+    background-color: #edf2c5;
+}
+
+.body{
+    max-width: 940px;
+    margin-top: 53px;
+    margin-bottom: 35px;
+    margin:0px auto;
+    vertical-align: middle;
+    font-family: "arial black";
+}/*總設定*/
+.header{
+  display:flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 53px;
+  padding-bottom: 8px;
+  height: 44px;
+}
+#veg{
+  color: #778a50;
+  font-size: 44px;
+  font-family:"arial black";
+  font-weight: bold;
+  align-self: center;
+  
+}
+.login{
+  display:flex;
+  align-self:center;
+  flex-direction: row;
+  font-family: "arial black";
+  font-weight: bold;
+  color: #778a50;
+  font-size: 12px;
+  text-align: center;
+}
+  .fb{
+    display:flex;
+    align-self:center;
+    max-width: 25px;
+    max-height: 25px;
+    margin:10px;
+  }
+  .ig{
+    display:flex;
+    align-self:center;
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 10px;
+  }
+  .login hr{
+    height:25px;
+    margin-top:10px;
+
+  }
+  .boxlogin{
+    border: solid 1.5px #778a50;
+    border-radius: 5px;
+    height:25px;
+    width:60px;
+    margin:10px;
+    line-height: 25px;
+
+  }
+  .boxjoin{
+    border: solid 1.5px #778a50;
+    border-radius: 5px;
+    height:25px;
+    width: 50px;
+    margin-top: 10px;
+    line-height: 25px;
+
+  }
+/*veg那排*/
+.img_main_pumpkin{
+  max-width: inherit;   
+  object-fit:cover;
+  vertical-align: middle;
+}
+nav{
+    display: flex;
+    background-color: #778a50;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    max-width: 940px;
+    height:44px;
+    line-height: 44px;
+  }
+  ul{
+    margin: 0;
+    list-style-type: none;
+  }
+  li{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "arial black";
+    font-weight: bold;
+    font-size: 16px;
+    color: #edf2c5;
+  }
+  
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+
+}
+  .left_article{
+    width: 445px;
+  }
+    #title1{
+      background-color: #778a50;
+
+    }
+    #title1 h2{
+      color: #edf2c5;
+      padding: 15px 30px;
+      font-size: 16px;
+
+    }
+    .img{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  .right_article{
+    border: solid 2px #edf2c5;
+    width: 445px;
+    margin-bottom: 10px;
+    
+  }
+    #title2{
+      background-color: #778a50;
+    }
+    #title2 h2{
+      color: #edf2c5;
+      padding: 13px 30px;
+      font-size: 16px;
+
+    }
+    #text{
+      background-color: #f7fbda;
+      padding:16px;
+      font-family:"arialmt regular";
+      font-size: 12px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      line-height: 1.33;
+      color: #7d7d7d;
+    }
+    hr{
+      color: #7d7d7d
+    }
+    #info{
+      line-height: 1.83;
+    }
+footer{
+  max-width:unset;
+  background-color: #778a50;
+  font-family: "arialmt regular";
+  font-size: 12px;
+  color:#edf2c5;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+
+}
+
+
+
