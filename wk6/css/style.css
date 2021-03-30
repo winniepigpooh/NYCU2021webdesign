@@ -1,0 +1,29 @@
+/*.box1{
+    background-color: brown;
+    width:100%;
+    height:200px;
+    /*margin:0 auto
+}
+.box2{
+    background-color: burlywood;
+    width:100%;
+    height:200px;
+    /*margin:0 auto
+}
+.box3{
+    background-color: coral;
+    width:100%;
+    height:200px;
+    /*margin:0 auto
+}*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
