@@ -1,0 +1,23 @@
+/* .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 引用動畫的 @keyframe 名稱
+    animation-duration: 2s;  別忘了設定持續時間 
+  }*/
+body{
+  
+  min-width: 100%;
+  min-height: 100%;
+  background: url('../img/ocean.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
+p{
+  font-size: 400px;
+  text-align: center;
+  font-family:"Cochin", Helvetica, sans-serif;
+
+}
+body{
+  
+}
